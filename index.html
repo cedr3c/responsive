@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="Icon/Icon_Website.svg">
+        <title>BeeWonders</title>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        </style>
+    </head>
+
+    <!--Vibing Cat vibede für d8ie website-->
+
+    <body>
+        <div class="taskbar" id="anchor1"></div>
+        <a href="index.html"><img class="Logo" src="Images/Logo.png"/></a>
+        <a href="https://www.duden.de/rechtschreibung/Honig" target=“_blank“>
+            <img class="Icon" src="Icon/Icon.svg"/>
+        </a>
+        <nav class="Taskbar_text">
+            <div class="test">
+            <a class="navigation" id="hometext" href="index.html">HOME</a>
+            <a class="navigation" id="sortimenttext" href="#anchor2">SORTIMENT</a>
+            <a class="navigation" id="wertetext" href="#anchor3">WERTE</a>
+            </div>
+        </nav>
+        <div class="background">
+            <div class="Box1">
+                <p id="txt1" class="font" style="font-family: 'Poppins', sans-serif;">
+                error   
+                </p>
+            </div>
+        
+            <div class="Box2"></div>
+        </div>
+        
+        <div class="Trennstrich" id="anchor2"></div>
+        <div class="Titel"><h1 class="Texttitel" style="font-family: 'Poppins', sans-serif;" id="txt2">error</h1></div>
+
+        <div class="Circle" id="C1"></div>
+        <div class="Circle" id="C2" ></div>
+        <div class="Circle" id="C3" ></div>
+        <div class="Circle" id="C4" ></div>
+
+        <div id="T1" class="Textbox"  ><p class="font_little" id="txt3">
+                error   
+                </p></div>
+        <div id="T2" class="Textbox" ><p class="font_little" id="txt4">
+                error    
+                </p></div>
+        <div id="T3" class="Textbox" ><p class="font_little" id="txt5">
+                error   
+                </p></div>
+        <div id="T4" class="Textbox" ><p class="font_little" id="txt6">
+                error    
+                </p></div>
+        
+        <div class="Trennstrich2" id="anchor3"></div>
+
+        <div class="Textbox2" style="border-radius: 50pt;"><p class="font_medium" id="txt7">
+                error   
+                </p></div>
+        <div class="Textbox3" style="border-radius: 50pt;"><p class="font_medium" id="txt8">
+                error    
+                </p></div>
+        <div class="Circle2"></div>
+        <img class="hexagon" src="Images/engagement.svg">
+        
+        
+        <script>
+        // Hier wird die Textdatei geladen
+        fetch('Text/text.txt')
+            .then(response => response.text())
+            .then(data => {
+                // Teilen Sie den Text in Abschnitte auf (hier am Trennzeichen "---")
+                const sections = data.split('---');
+
+                // Speichern Sie die Abschnitte in Variablen
+                const section1 = sections[0];
+                const section2 = sections[1];
+                const section3 = sections[2];
+                const section4 = sections[3];
+                const section5 = sections[4];
+                const section6 = sections[5];
+                const section7 = sections[6];
+                const section8 = sections[7];
+                const section9 = sections[8];
+            
+                // Fügen Sie die Variablen in die entsprechenden HTML-Elemente ein
+            
+                function myFunction(x) {
+                  if (x.matches) { // If media query matches
+                    document.getElementById('txt1').textContent = section9;
+                  } else {
+                    document.getElementById('txt1').textContent = section1;
+                  }
+                }
+
+                var x = window.matchMedia("(max-width: 480px)")
+                myFunction(x) // Call listener function at run time
+                x.addListener(myFunction) // Attach listener function on state changes
+            
+                document.getElementById('txt2').textContent = section2;
+                document.getElementById('txt3').textContent = section3;
+                document.getElementById('txt4').textContent = section4;
+                document.getElementById('txt5').textContent = section5;
+                document.getElementById('txt6').textContent = section6;
+                document.getElementById('txt7').textContent = section7;
+                document.getElementById('txt8').textContent = section8;
+            })
+            .catch(error => console.error(error));
+        </script>
+    </body>
+</html>

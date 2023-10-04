@@ -1,0 +1,831 @@
+body {
+    margin: 20px;
+    background-color: #fa8d64;
+    height: 3000px;
+}
+
+.Logo:hover {
+    transform: scale(1.2);
+}
+
+#hometext {
+    transition: font-size 0.3s ease;
+}
+
+#sortimenttext {
+    transition: font-size 0.3s ease;
+}
+
+#wertetext {
+    transition: font-size 0.3s ease;
+}
+
+#hometext:hover {
+    font-size: 35pt;
+}
+
+#sortimenttext:hover {
+    font-size: 35pt;
+}
+
+#wertetext:hover {
+    font-size: 35pt;
+}
+
+
+.Icon:hover{
+    transform: scale(1.2);
+    content: url(Icon/Icon2.svg);
+}
+
+.taskbar {
+    position: absolute; /* Verwenden Sie absolute Positionierung */
+    left: 50%; /* Setzen Sie den linken Wert auf 50% */
+    transform: translateX(
+        -50%
+    ); /* Verschieben Sie das Element nur horizontal zurück um die Hälfte seiner Breite */
+    background-color: #f5e3d5;
+    width: 94%;
+    height: 70px;
+    border-radius: 30pt;
+}
+
+.font_little {
+    padding: 15px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 17pt;
+}
+
+.font_medium {
+    padding: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18pt;
+}
+
+.font {
+    padding: 15px;
+    font-size: 25pt;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+
+.background {
+    position: absolute; /* Verwenden Sie absolute Positionierung */
+    top: 12%; /* Behalten Sie den oberen Wert bei 47% */
+    left: 50%; /* Setzen Sie den linken Wert auf 50% */
+    transform: translateX(
+        -50%
+    ); /* Verschieben Sie das Element nur horizontal zurück um die Hälfte seiner Breite */
+    background-color: #f5e3d5;
+    width: 94%; /* Behalten Sie die Breite bei 94% */
+    height: 2800px; /* Behalten Sie die Höhe bei 20% */
+    border-radius: 30pt;
+}
+
+
+.navigation {
+    top: 10px;
+    position: relative;
+    margin-top: 20px;
+    align-content: center;
+    color: black;
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    font-size: 30pt;
+    margin-left: 7.25%;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+.Taskbar_text {
+    position: relative;
+    margin-left: 37.7%;
+    margin-right: 30%;
+    white-space: nowrap;
+}
+
+.Box1 {
+    z-index: 10;
+    background-color: #fa8d64;
+    position: absolute;
+    width: 30%;
+    height: 27%;
+    border-radius: 30pt;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.Box2 {
+    background-image: url("Images/bee.png");
+    background-size: 80.64% 140%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: 9;
+    background-color: #f5c91b;
+    position: absolute;
+    width: 98%;
+    height: 27%;
+    border-radius: 30pt;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.Logo {
+    margin-left: 4%;
+    position: absolute;
+    z-index: 16;
+    height: 70px;
+    transition: transform 0.3s ease;
+}
+
+.Trennstrich {
+    position: absolute;
+    background-color: #fa8d64;
+    margin-top: 37%;
+    margin-left: 32.5%;
+    width: 35%;
+    height: 5%;
+    border-radius: 30pt;
+}
+
+.Trennstrich2 {
+    position: absolute;
+    background-color: #fa8d64;
+    margin-top: 80%;
+    margin-left: 32.5%;
+    width: 35%;
+    height: 5%;
+    border-radius: 30pt;
+}
+
+.Icon {
+    margin-left: 92.4%;
+    margin-top: 4px;
+    position: absolute;
+    z-index: 16;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.Titel {
+    background-color: #fa8d64;
+    margin-left: 35%;
+    margin-top: 41%;
+    position: absolute;
+    z-index: 16;
+    width: 30%;
+    height: 15%;
+    border-radius: 30pt;
+}
+
+.Texttitel {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 70pt;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.Circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 1300px;
+    box-shadow: 10px 10px 50px grey;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#C1 {
+    background-image: url(Images/Akazienhonig.png)
+}
+
+#C2 {
+    margin-left: 31%;
+    background-image: url("Images/Lavendelhonig.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#C3 {
+    margin-left: 53%;
+    background-image: url("Images/Wildblumenhonig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#C4 {
+    margin-left: 75.5%;
+    background-image: url("Images/Orangenbluetenhonig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#T1 {
+    margin-left: 10%;
+}
+
+#T2 {
+    margin-left: 31%;
+}
+
+#T3 {
+    margin-left: 53%;
+}
+
+#T4 {
+    margin-left: 75.5%;
+}
+
+.Circle2 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 2100px;
+    background-image: url("Images/nachhaltigkeit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.Textbox {
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: #fa8d64;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1650px;
+}
+
+.Textbox2 {
+    height: 300px;
+    width: 600px;
+    background-color: #fa8d64;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2100px;
+    border-radius: 20%;
+}
+
+.Textbox3 {
+    margin-left: 700px;
+    margin-top: 2450px;
+    height: 300px;
+    width: 600px;
+    background-color: #fa8d64;
+    position: absolute;
+    border-radius: 20%;
+}
+
+.hexagon {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 2350px;
+}
+
+@media screen and (max-width: 2000px) {
+    .Trennstrich {
+        position: absolute;
+        background-color: #fa8d64;
+        margin-top: 55%;
+        margin-left: 32.5%;
+        width: 35%;
+        height: 5%;
+        border-radius: 30pt;
+    }
+
+    .Titel {
+        background-color: #fa8d64;
+        margin-left: 35%;
+        margin-top: 60%;
+        position: absolute;
+        z-index: 16;
+        width: 30%;
+        height: 15%;
+        border-radius: 30pt;
+    }
+
+    .Texttitel {
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        width: 50%;
+        margin-left: 4%;
+        margin-top: 4.8%;
+        font-size: 50pt;
+    }
+
+    .Box1 {
+        z-index: 10;
+        background-color: #fa8d64;
+        position: absolute;
+        width: 30%;
+        height: 27%;
+        border-radius: 30pt;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
+    .Box2 {
+        background-image: url("Images/bee.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top right;
+        z-index: 9;
+        background-color: #f5c91b;
+        position: absolute;
+        width: 98%;
+        height: 27%;
+        border-radius: 30pt;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
+    .Logo {
+        margin-left: 4%;
+        margin-top:0px;
+        position: absolute;
+        z-index: 16;
+        height: 70px;
+        transition: transform 0.3s ease;
+    }
+
+    .Trennstrich2 {
+        position: absolute;
+        background-color: #fa8d64;
+        margin-top: 125%;
+        margin-left: 32.5%;
+        width: 35%;
+        height: 5%;
+        border-radius: 30pt;
+        z-index: 100;
+    }
+
+    .Icon {
+        margin-left: 90.7%;
+        margin-top: 6px;
+        position: absolute;
+        z-index: 16;
+        height: 50px;
+        transition: transform 0.3s ease;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .Circle {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        margin-left: 2.3%;
+        margin-top: 1200px;
+        box-shadow: 10px 10px 50px grey;
+    }
+
+    .Circle2 {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 2050px;
+    }
+
+    .Textbox {
+        border-radius: 10%;
+        height: 300px;
+        width: 300px;
+        background-color: #fa8d64;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 1550px;
+    }
+
+    .Textbox2 {
+        height: 300px;
+        width: 600px;
+        background-color: #fa8d64;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 2050px;
+        border-radius: 20%;
+    }
+
+    .hexagon {
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 2360px;
+    }
+
+    #C2 {
+        margin-left: 27%;
+    }
+
+    #C3 {
+        margin-left: 52%;
+    }
+
+    #C4 {
+        margin-left: 75.5%;
+    }
+    
+    #T1 {
+        margin-left: 2.3%;
+    }
+    
+
+    #T2 {
+        margin-left: 27%;
+    }
+
+    #T3 {
+        margin-left: 52%;
+    }
+
+    #T4 {
+        margin-left: 75.5%;
+    }
+
+    .font {
+        padding: 15px;
+        font-size: 19.8pt;
+        font-family: sans-serif;
+        color: white;
+        margin-top: 0px;
+    }
+
+    .font_little {
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 17.2pt;
+    }
+
+    .font_medium {
+        padding: 15px;
+        margin-left: 15px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18pt;
+    }
+    
+    .Taskbar_text {
+    position: relative;
+    margin-left: 32.4%;
+    margin-right: 30%;
+    white-space: nowrap;
+}
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .taskbar {
+        position: absolute; /* Verwenden Sie absolute Positionierung */
+        left: 50%; /* Setzen Sie den linken Wert auf 50% */
+        transform: translateX(
+            -50%
+        ); /* Verschieben Sie das Element nur horizontal zurück um die Hälfte seiner Breite */
+        background-color: #f5e3d5;
+        width: 97%;
+        height: 50px;
+        border-radius: 30pt;
+    }
+    
+
+    
+    .Trennstrich {
+        position: absolute;
+        background-color: #fa8d64;
+        margin-top: 465px;
+        margin-left: 9%;
+        width: 75%;
+        height: 3%;
+        border-radius: 30pt;
+    }
+
+    .Titel {
+        background-color: #fa8d64;
+        margin-left: 15.5%;
+        margin-top: 520px;
+        position: absolute;
+        z-index: 16;
+        width: 60%;
+        height: 9%;
+        border-radius: 30pt;
+    }
+
+    .Texttitel {
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        margin-left: 11px;
+        margin-top: 13px;
+        font-size: 20pt;
+    }
+
+    .Box1 {
+        z-index: 10;
+        background-color: #fa8d64;
+        position: absolute;
+        width: 60%;
+        height: 9%;
+        border-radius: 30pt;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+
+    .Box2 {
+        background-image: url(Images/bee_mobile.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center right;
+        z-index: 9;
+        background-color: #f5c91b;
+        position: absolute;
+        width: 98%;
+        height: 9%;
+        border-radius: 30pt;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+
+
+    .Trennstrich2 {
+        position: absolute;
+        background-color: #fa8d64;
+        margin-top: 3270px;
+        margin-left: 9%;
+        width: 75%;
+        height: 3%;
+        border-radius: 30pt;
+        z-index: 100;
+    }
+
+    .Icon {
+        margin-left: 90.7%;
+        margin-top: 6px;
+        position: absolute;
+        z-index: 16;
+        height: 50px;
+        transition: transform 0.3s ease;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .Circle {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 620px;
+        box-shadow: 10px 10px 50px grey;
+        display: block;
+    }
+
+    .Circle2 {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        margin-left: 27px;
+        margin-top: 2050px;
+        display: none;
+    }
+
+    .Textbox {
+        border-radius: 10%;
+        height: 300px;
+        width: 300px;
+        background-color: #fa8d64;
+        position: absolute;
+        margin-left: 20px;;
+        margin-top: 2050px;
+    }
+
+    .Textbox2 {
+        display: none;
+        height: 300px;
+        width: 600px;
+        background-color: #fa8d64;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 2050px;
+        border-radius: 20%;
+    }
+
+    .hexagon {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        margin-left: -8px;
+        margin-top: 3660px;
+    }
+
+    #C2 {
+        margin-top: 1280px;
+        margin-left: -10px;
+    }
+
+    #C3 {
+        
+        margin-left: -10px;
+        margin-top: 1950px;
+    }
+
+    #C4 {
+        margin-left: -10px;
+        margin-top: 2620px;
+    }
+    
+    #T1 {
+        margin-left: -10px;
+        margin-top: 950px;
+    }
+    
+
+    #T2 {
+        margin-left: -10px;
+        margin-top: 1600px;
+        z-index: 100;
+    }
+
+    #T3 {
+        margin-left: -10px;
+        margin-top: 2280px;
+    }
+
+    #T4 {
+        margin-left: -10px;
+        margin-top: 2950px;
+    }
+
+    .font {
+        padding: 15px;
+        font-size: 8pt;
+        font-family: sans-serif;
+        color: white;
+        margin-top: -5px;
+    }
+
+    .font_little {
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 17.2pt;
+    }
+
+    .font_medium {
+        padding: 15px;
+        margin-left: 15px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18pt;
+    }
+    
+    .Taskbar_text {
+    position: absolute;
+    margin-left: 10px;;
+    margin-right: 0px;
+    white-space: nowrap;
+    font-size: 10pt;
+    margin-top: 5px;
+    }
+    
+    .Logo {
+    content: url(Images/Logo2.svg); 
+    margin-left: 0px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 16;
+    height: 40px;
+    transition: transform 0.3s ease;
+    }
+    
+    .navigation {
+        font-size: 14pt;
+        margin-left: 37px;
+        margin-top: 20px;
+        
+    }
+    
+    #sortimenttext {
+        margin-left: 10px;
+    }
+    
+    #wertetext {
+        margin-left: 10px;
+    }
+    
+    .Icon {
+        display: none;
+    }
+    
+    
+    .Logo:hover {
+    transform: scale(1.0);
+    }
+
+    #hometext:hover {
+        font-size: 14pt;
+    }
+
+    #sortimenttext:hover {
+        font-size: 14pt;
+    }
+
+    #wertetext:hover {
+        font-size: 14pt;
+    }
+    
+    html, body {
+    overflow-x: hidden;
+    }
+    
+    body {
+        height: 4000px;
+    }
+    
+    .background {
+        height: 3900px;
+    }
+    
+    .Textbox3 {
+    margin-left: -10px;
+    margin-top: 3310px;
+    height: 340px;
+    width: 300px;
+    background-color: #fa8d64;
+    position: absolute;
+    border-radius: 20%;
+    }
+    
+    .font_medium {
+        margin-top: -1px;
+        font-size: 13pt;
+    }
+    
+    .font{
+        font-size: 12px;
+    }
+    
+    
+}
