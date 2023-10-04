@@ -568,7 +568,7 @@ body {
         font-family: sans-serif;
         position: absolute;
         margin-left: 11px;
-        margin-top: 13px;
+        margin-top: 5px;
         font-size: 20pt;
     }
 
@@ -729,7 +729,7 @@ body {
         margin-top: 0px;
         font-family: 'Poppins', sans-serif;
         color: white;
-        font-size: 17.2pt;
+        font-size: 14pt;
     }
 
     .font_medium {
